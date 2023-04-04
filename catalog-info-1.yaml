@@ -7,4 +7,4 @@ catalog:
   locations:
     # (since 0.13.5) Scan all repositories for a catalog-info.yaml in the root of the default branch
     - type: github-discovery
-      target: https://github.com/MattHughesEE/mh-service-*/blob/-/service-catalog.yaml
+      target: https://github.com/MattHughesEE/mh-services-*/blob/-/service-catalog.yaml
