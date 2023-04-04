@@ -3,6 +3,8 @@ kind: Location
 metadata:
   name: exmple-components
   description: A collection of all services that the FireHydrant catalog should point to an ingest
-spec:
-  targets:
-    - ../hydrant/mh-playermatching.yaml
+catalog:
+  locations:
+    # (since 0.13.5) Scan all repositories for a catalog-info.yaml in the root of the default branch
+    - type: github-discovery
+      target: https://github.com/MattHughesEE/hydrant/blob/-/mh-playermatching.yaml
