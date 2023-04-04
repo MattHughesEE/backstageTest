@@ -5,4 +5,4 @@ metadata:
   description: A collection of all services that the FireHydrant catalog should point to an ingest
 spec:
   targets:
-    - ../**/*.yaml
+    - ../hydrant/blob/main/mh-*.yaml
