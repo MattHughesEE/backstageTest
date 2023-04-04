@@ -1,14 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: exmple-components
+  name: org-data
   description: A collection of all services that the FireHydrant catalog should point to an ingest
-catalog:
-  providers:
-    github:
-      providerId:
-        organization: 'MattHughesEE'
-        catalogPath: '/mh-services-*/**/*.yaml'
-        filters:
-          branch: 'main'
-          repository: '.*'
+spec:
+  type: url
+  targets:
+    - https://github.com/MattHughesEE/mh-services-ikon/blob/main/service-catalog.yaml
