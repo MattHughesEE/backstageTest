@@ -6,4 +6,4 @@ metadata:
 spec:
   type: url
   targets:
-    - https://github.com/MattHughesEE/mh-services-*/blob/main/service-catalog.yaml
+    - https://github.com/MattHughesEE/mh-services-ikon/blob/main/service-catalog.yaml
